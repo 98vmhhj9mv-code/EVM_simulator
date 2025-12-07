@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.tab.active {
+  background: #ffcce6;
+}
+
+.tab.inactive {
+  background: #ccc;
+}
+
+.evm-box {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  border: 2px solid #ddd;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.ready {
+  color: black;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.red-light {
+  width: 15px;
+  height: 15px;
+  background: darkred;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.vote-btn {
+  width: 45px;
+  height: 25px;
+  background: navy;
+  border-radius: 20px;
+  border: none;
+}
+.red-light {
+  width: 15px;
+  height: 15px;
+  background: #8b0000;  /* dark red (off) */
+  border-radius: 50%;
+  margin: auto;
+  transition: 0.2s;
+}
+
+.red-light.active {
+  background: red; /* bright red (on) */
+  box-shadow: 0 0 8px red;
+}
+.ready-dot {
+  color: black; 
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.ready-dot.active {
+  color: red;
+}
+.symbol {
+  font-size: 36px;   /* change size here */
+}
+
+
